@@ -1,1 +1,30 @@
+/* Tailwind CSS */
 @import 'tailwindcss';
+
+/* Global Styles */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Ensure consistent button styling across browsers */
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+/* Ensure consistent input styling across browsers */
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+/* input::placeholder {
+  padding-left: 16px;
+} */
